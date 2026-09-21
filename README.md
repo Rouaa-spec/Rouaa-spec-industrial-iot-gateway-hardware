@@ -34,5 +34,7 @@ Chaque interface de la carte a été minutieusement sélectionnée pour répondr
 
 <p align="center">
 <img width="500" alt="3D View" src="https://github.com/user-attachments/assets/bdecdfc0-2aac-4b60-9f50-10bc90a95607" />
+  <br />
+  <sub><b>Vue 3D</b></sub>
 </p>
 
