@@ -6,7 +6,7 @@ Ce dépôt rassemble les fichiers de conception électronique d'une **passerelle
 
 ## 📐 Rôle de la Carte et Concept de Passerelle IoT
 
-Le rôle principal de cette carte est d'agir comme un **pont de communication intelligent** entre le monde physique (Operational Technology - OT) et les systèmes d'information ou serveurs distants (Information Technology - IT). 
+Le rôle principal de cette carte est d'agir comme un **pont de communication intelligent** entre le monde physique et les serveurs distants. 
 
 En milieu industriel, les machines et capteurs de terrain utilisent des liaisons locales non connectées à Internet. Cette carte collecte ces données locales, les centralise, les traite, puis les propulse vers le réseau ou le Cloud. 
 
