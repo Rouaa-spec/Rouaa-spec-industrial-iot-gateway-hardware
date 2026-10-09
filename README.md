@@ -30,6 +30,20 @@ Chaque interface de la carte a été minutieusement sélectionnée pour répondr
 
 ---
 
+## 📄 Dossier de Conception (Schématiques)
+
+### Étage Alimentation
+<p align="center">
+  <img width="800" alt="Alimentation" src="https://github.com/user-attachments/assets/fddc7ea0-3016-4b5f-a5b4-9be455106732" />
+</p>
+
+### Étage Communication
+<p align="center">
+  <img width="800" alt="Communication" src="https://github.com/user-attachments/assets/d957668d-6895-4f4c-a30f-676292e32c57" />
+</p>
+
+---
+
 ## 📸 Aperçu 3D 
 
 <p align="center">
