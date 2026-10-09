@@ -32,13 +32,11 @@ Chaque interface de la carte a été minutieusement sélectionnée pour répondr
 
 ## 📄 Dossier de Conception (Schématiques)
 
-### Étage Alimentation
 <p align="center">
   <img width="800" alt="Alimentation" src="https://github.com/user-attachments/assets/fddc7ea0-3016-4b5f-a5b4-9be455106732" />
 <br />
 <sub><b>Schéma d'alimentation</b></sub>
 
-### Étage Communication
 <p align="center">
   <img width="800" alt="Communication" src="https://github.com/user-attachments/assets/d957668d-6895-4f4c-a30f-676292e32c57" />
 <br />
@@ -52,5 +50,31 @@ Chaque interface de la carte a été minutieusement sélectionnée pour répondr
 <img width="500" alt="3D View" src="https://github.com/user-attachments/assets/bdecdfc0-2aac-4b60-9f50-10bc90a95607" />
   <br />
   <sub><b>Vue 3D</b></sub>
+
+  ---
+
+  ## 📂 Organisation du Dépôt
+
+Le projet est structuré selon l'arborescence standard d'Altium Designer pour séparer les sources de conception et les livrables de fabrication :
+
+```text
+├── 📂 Internship_2/                  # Dossier racine du projet CAO Altium
+│   ├── 📄 Internship_2.PrjPcb        # Fichier de projet principal Altium
+│   │
+│   ├── 📂 Documents de Conception (Schématiques & Routage)
+│   │   ├── 📄 alimentation.SchDoc    # Schématique de l'étage d'alimentation
+│   │   ├── 📄 communication.SchDoc   # Schématique de l'étage de communication
+│   │   └── 📄 PCB1.PcbDoc            # Fichier de routage de la carte électronique
+│   │
+│   ├── 📂 Librairies de Composants Dédiées
+│   │   ├── 📄 CPUG071.SCHLIB         # Empreintes schématiques
+│   │   ├── 📄 Internship_2.SCHLIB    # Librairie locale du projet
+│   │   └── 📄 *.LibPkg               # Packages de composants spécifiques (SS34, ZST...)
+│   │
+│   └── 📂 Project Outputs for Internship_2/ # Génération automatique des livrables usine (Gerbers, BOM...)
+│
+├── 📄 .gitignore                     # Filtre pour exclure les fichiers de logs et historiques Altium
+└── 📄 README.md                      # Présentation globale et schématiques de la carte
+```
 </p>
 
